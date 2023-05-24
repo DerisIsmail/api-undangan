@@ -8,59 +8,59 @@
 
 ## About Kamu
 
-Kamu adalah PHP framework yang sangat sederhana. Saking sederhananya, serasa di localhost!!.
+Kamu adalah PHP framework yang sangat sederhana. Saking sederhananya, serasa di localhost !!.
 <br>
 Dibantu dengan saya console untuk mempermudah dalam development aplikasi Anda.
 
-### Deployment API: https://youtu.be/WOVyAw1UAtI
+## Deployment On Vercel
 
-## Deployment on vercel
-- Clone or download this repository
+-   Clone or download this repository
     ```bash
-    git clone https://github.com/dewanakl/DikitLink.git
+    git clone https://github.com/DerisIsmail/api-undangan.git
     ```
-- Install package
+-   Install package
     ```bash
     composer install
     ```
-- Create .env file
+-   Create .env file
     ```bash
     cp .env.example .env
     ```
-- Create key application
+-   Create key application
     ```bash
     php saya key
     ```
-- Push on your github.
-- Create new project in vercel.
-- Import from your repository.
-- Change environment variables in your project on vercel.
-- Add this :
-  - DB_HOST (your host cloud dbms) 
-  - DB_PASS (your password cloud dbms)
-  - DB_USER (your username cloud dbms)
-  - DB_NAME (your name of database cloud dbms)
-  - DB_PORT (your port cloud dbms)
-  - DB_DRIV (type cloud dbms [ex. mysql or pgsql])
-  - JWT_KEY [ex. 123]
-  - HTTPS [true]
-  - COOKIE [false]
-  - APP_KEY [copy from your local env]
-- Click deployments tab in vercel project.
-- Click the most recent deploy.
-- Click dot three and redeploy.
-- Finish.
+-   Push on your github.
+-   Create new project in vercel.
+-   Import from your repository.
+-   Change environment variables in your project on vercel.
+-   Add this :
+    -   DB_HOST (your host cloud dbms)
+    -   DB_PASS (your password cloud dbms)
+    -   DB_USER (your username cloud dbms)
+    -   DB_NAME (your name of database cloud dbms)
+    -   DB_PORT (your port cloud dbms)
+    -   DB_DRIV (type cloud dbms [ex. mysql or pgsql])
+    -   JWT_KEY [ex. 123]
+    -   HTTPS [true]
+    -   COOKIE [false]
+    -   APP_KEY [copy from your local env]
+-   Click deployments tab in vercel project.
+-   Click the most recent deploy.
+-   Click dot three and redeploy.
+-   Finish.
 
 ## Get Started Project
-- Create a project with composer
+
+-   Create a project with composer
     ```bash
     composer create-project kamu/kamu coba-app
     ```
-- Move the folder
+-   Move the folder
     ```bash
     cd coba-app
     ```
-- Run in development server
+-   Run in development server
     ```bash
     php saya coba
     ```
@@ -71,7 +71,7 @@ I'm very open to those of you who want to contribute to Kamu framework!
 
 ## Security Vulnerabilities
 
-If you find a security vulnerability in this Kamu, please email DKL via [dewanakretarta29@gmail.com](mailto:dewanakretarta29@gmail.com).
+If you find a security vulnerability in this Kamu, please email DKL via [derisismail3@gmail.com](mailto:derisismail3@gmail.com).
 
 ## License
 
